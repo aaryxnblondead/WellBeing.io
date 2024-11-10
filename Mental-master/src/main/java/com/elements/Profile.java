@@ -1,0 +1,38 @@
+package com.elements;
+
+import com.contracts.Page;
+import com.models.User;
+import com.pages.EditProfilePage;
+import com.service.AccountManager;
+import com.service.PageManager;
+import javafx.scene.control.Hyperlink;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+
+public class Profile extends VBox {
+
+    public Profile(User user) {
+        SuperLabel fioLabel = new SuperLabel(user.getFio());
+        fioLabel.setWrapText(true);
+        fioLabel.makeBold();
+
+        SuperLabel username = new SuperLabel("@" + user.getUsername());
+        username.makeTitle();
+        username.makeGrey();
+
+        Hyperlink editProfileButton = new Hyperlink(Page.localeRes.getString("edit_profile"));
+        editProfileButton.setOnAction(event -> PageManager.loadPage(new EditProfilePage()));
+        Hyperlink logOutButton = new Hyperlink(Page.localeRes.getString("exit"));
+        logOutButton.setOnAction(event -> AccountManager.logOut());
+
+        HBox buttonsBox = new HBox(editProfileButton, logOutButton);
+        buttonsBox.setSpacing(10);
+
+        this.getChildren().addAll(fioLabel, username, buttonsBox);
+        this.setMaxWidth(500);
+        this.setMinWidth(500);
+
+/*        Background DEFAULT_BACKGROUND = new Background(new BackgroundFill(Color.LIGHTGRAY, null, null));
+        this.setBackground(DEFAULT_BACKGROUND);*/
+    }
+}

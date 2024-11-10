@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1ab2db7-1944-48ef-9b0e-df816e8bbe89" name="Changes" comment="settings now works">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/by_locale.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pl_locale.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ua_locale.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/Mental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/Mental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/elements/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/elements/Diary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/elements/Mood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/elements/Mood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/elements/SuperLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/elements/SuperLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/models/Locale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/models/Locale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/DiaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/DiaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/NotePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/NotePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/UserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/service/SettingsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/service/SettingsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/en_locale.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/en_locale.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ru_locale.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ru_locale.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2iavLKtbhYERZFZbogUedkTD7xB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Msolutions Projects/Healthy/src/main/resources",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.47471264",
+    "settings.editor.selected.configurable": "File.Encoding"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Msolutions Projects\Healthy\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Msolutions Projects\Healthy\src\main\resources" />
+      <recent name="C:\Msolutions Projects\Healthy\src\main\resources\styles" />
+      <recent name="C:\Msolutions Projects\Healthy\src\main\resources\img" />
+      <recent name="C:\Msolutions Projects\Healthy\src\main\resources\tests\dass-21" />
+      <recent name="C:\Msolutions Projects\Healthy\src\main\resources\calculators\weight-calculator" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Mental" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.dddryinside.Mental" />
+      <module name="Mental" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1ab2db7-1944-48ef-9b0e-df816e8bbe89" name="Changes" comment="" />
+      <created>1719741446050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719741446050</updated>
+    </task>
+    <task id="LOCAL-00001" summary="starting app">
+      <created>1719748103479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719748103479</updated>
+    </task>
+    <task id="LOCAL-00002" summary="weight calculation function added">
+      <created>1719765286980</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719765286980</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added html page for information about test, also worked with main page and more...">
+      <created>1719778523456</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719778523456</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added sqlite db, special class for working with it, also many, manu things">
+      <created>1719837160840</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719837160840</updated>
+    </task>
+    <task id="LOCAL-00005" summary="now we can add new patients to db">
+      <created>1719863138514</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719863138514</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added view all added patients in patients page">
+      <created>1719867923045</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719867923045</updated>
+    </task>
+    <task id="LOCAL-00007" summary="started working on dass-21-test">
+      <created>1719952283843</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719952283843</updated>
+    </task>
+    <task id="LOCAL-00008" summary="still working on dass-21-test">
+      <created>1719984647567</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719984647567</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added icon and &quot;about&quot; page">
+      <created>1720017548333</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720017548333</updated>
+    </task>
+    <task id="LOCAL-00010" summary="now personal page for patients exist, also updated page loader, now it works more correct">
+      <created>1720085480343</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720085480343</updated>
+    </task>
+    <task id="LOCAL-00011" summary="passed tests are displayed on users’ personal pages">
+      <created>1720105203121</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720105203121</updated>
+    </task>
+    <task id="LOCAL-00012" summary="program becomes more polymorphic, and now we can see patient's research results">
+      <created>1720167391913</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720167391913</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added authentication page">
+      <created>1720213706134</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720213706134</updated>
+    </task>
+    <task id="LOCAL-00014" summary="now personal user page working without fxml-file, also had made some changes in db access level">
+      <created>1720255993312</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720255993312</updated>
+    </task>
+    <task id="LOCAL-00015" summary="working on gad-7 test">
+      <created>1720283313355</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720283313355</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added new tests, made a lot of code refactoring">
+      <created>1720298380617</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1720298380617</updated>
+    </task>
+    <task id="LOCAL-00017" summary="now editing user profile is working">
+      <created>1720348821223</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1720348821223</updated>
+    </task>
+    <task id="LOCAL-00018" summary="working on diary functions">
+      <created>1720435156278</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1720435156278</updated>
+    </task>
+    <task id="LOCAL-00019" summary="the diary is fully working">
+      <created>1720517723882</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1720517723882</updated>
+    </task>
+    <task id="LOCAL-00020" summary="starting refactoring">
+      <created>1720588903099</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1720588903099</updated>
+    </task>
+    <task id="LOCAL-00021" summary="doing new structure">
+      <created>1721123747719</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1721123747719</updated>
+    </task>
+    <task id="LOCAL-00022" summary="doing widgets">
+      <created>1721144568450</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1721144568450</updated>
+    </task>
+    <task id="LOCAL-00023" summary="still doing widgets">
+      <created>1721150653435</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1721150653435</updated>
+    </task>
+    <task id="LOCAL-00024" summary="same">
+      <created>1721208586385</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1721208586386</updated>
+    </task>
+    <task id="LOCAL-00025" summary="trying to make new design">
+      <created>1721343296151</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1721343296151</updated>
+    </task>
+    <task id="LOCAL-00026" summary="still working on new interface and main user page">
+      <created>1721295846643</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1721295846643</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Made a lot of changes to widgets, design in general and the main page. I am actively working on the diary functionality">
+      <created>1721347423013</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1721347423013</updated>
+    </task>
+    <task id="LOCAL-00028" summary="the mood widget is fully working">
+      <created>1721376163735</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1721376163735</updated>
+    </task>
+    <task id="LOCAL-00029" summary="made a few corrections with the diary, again changes in design">
+      <created>1721425519695</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1721425519695</updated>
+    </task>
+    <task id="LOCAL-00030" summary="making the application multilingual">
+      <created>1721440387661</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1721440387661</updated>
+    </task>
+    <task id="LOCAL-00031" summary="working on avatar functions">
+      <created>1721507332288</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1721507332288</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fixed some bugs, completed some functions">
+      <created>1721563399619</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1721563399619</updated>
+    </task>
+    <task id="LOCAL-00033" summary="simplified the registration process, minor improvements">
+      <created>1721566076119</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1721566076119</updated>
+    </task>
+    <task id="LOCAL-00034" summary="settings now works">
+      <created>1721583531607</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1721583531607</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="refactoring" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="now personal page for patients exist, also updated page loader, now it works more correct" />
+    <MESSAGE value="passed tests are displayed on users’ personal pages" />
+    <MESSAGE value="program becomes more polymorphic, and now we can see patient's research results" />
+    <MESSAGE value="added authentication page" />
+    <MESSAGE value="now personal user page working without fxml-file, also had made some changes in db access level" />
+    <MESSAGE value="working on gad-7 test" />
+    <MESSAGE value="added new tests, made a lot of code refactoring" />
+    <MESSAGE value="now editing user profile is working" />
+    <MESSAGE value="working on diary functions" />
+    <MESSAGE value="the diary is fully working" />
+    <MESSAGE value="starting refactoring" />
+    <MESSAGE value="doing new structure" />
+    <MESSAGE value="doing widgets" />
+    <MESSAGE value="still doing widgets" />
+    <MESSAGE value="same" />
+    <MESSAGE value="trying to make new design" />
+    <MESSAGE value="still working on new interface and main user page" />
+    <MESSAGE value="Made a lot of changes to widgets, design in general and the main page. I am actively working on the diary functionality" />
+    <MESSAGE value="the mood widget is fully working" />
+    <MESSAGE value="made a few corrections with the diary, again changes in design" />
+    <MESSAGE value="making the application multilingual" />
+    <MESSAGE value="working on avatar functions" />
+    <MESSAGE value="fixed some bugs, completed some functions" />
+    <MESSAGE value="simplified the registration process, minor improvements" />
+    <MESSAGE value="now the settings are working" />
+    <option name="LAST_COMMIT_MESSAGE" value="now the settings are working" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WeightChecker$MedicalCalculator.ic" NAME="MedicalCalculator Coverage Results" MODIFIED="1719761442468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
