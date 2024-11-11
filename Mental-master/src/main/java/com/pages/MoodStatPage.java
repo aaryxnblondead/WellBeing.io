@@ -15,6 +15,7 @@ import javafx.scene.control.Hyperlink;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.util.StringConverter;
+import javafx.scene.paint.Color;
 
 import java.util.Collections;
 import java.util.List;
@@ -38,17 +39,25 @@ public class MoodStatPage extends Page {
         if (pagesAmount != 1) {
             if (pageNumber == 1) {
                 Hyperlink prevButton = new Hyperlink(localeRes.getString("prev_30_days"));
+                prevButton.setTextFill(Color.web("#FCA7A5"));
+                prevButton.setStyle("-fx-text-fill: #FCA7A5; -fx-control-inner-background: #5A3E79;");
                 prevButton.setOnAction(event -> PageManager.loadPage(new MoodStatPage(pageNumber + 1)));
                 pagination.getChildren().add(prevButton);
             } else if (pageNumber == pagesAmount) {
                 Hyperlink nextButton = new Hyperlink(localeRes.getString("next_30_days"));
+                nextButton.setTextFill(Color.web("#FCA7A5"));
+                nextButton.setStyle("-fx-text-fill: #FCA7A5; -fx-control-inner-background: #5A3E79;");
                 nextButton.setOnAction(event -> PageManager.loadPage(new MoodStatPage(pageNumber - 1)));
                 pagination.getChildren().add(nextButton);
             } else {
                 Hyperlink nextButton = new Hyperlink(localeRes.getString("next_30_days"));
+                nextButton.setTextFill(Color.web("#FCA7A5"));
+                nextButton.setStyle("-fx-text-fill: #FCA7A5; -fx-control-inner-background: #5A3E79;");
                 nextButton.setOnAction(event -> PageManager.loadPage(new MoodStatPage(pageNumber - 1)));
 
                 Hyperlink prevButton = new Hyperlink(localeRes.getString("prev_30_days"));
+                prevButton.setTextFill(Color.web("#FCA7A5"));
+                prevButton.setStyle("-fx-text-fill: #FCA7A5; -fx-control-inner-background: #5A3E79;");
                 prevButton.setOnAction(event -> PageManager.loadPage(new MoodStatPage(pageNumber + 1)));
 
                 pagination.getChildren().addAll(nextButton, prevButton);
@@ -57,11 +66,14 @@ public class MoodStatPage extends Page {
         VBox.setMargin(pagination, new Insets(0, 0, 20, 0));
 
         VBox container = new VBox(pagination, moodChart);
+        container.setStyle("-fx-background-color: #130329; -fx-control-inner-background: #5A3E79;");
 
         Root root = new Root();
         root.setMenuBar();
         root.setToTopCenter(container);
-        return new Scene(root);
+        Scene scene = new Scene(root);
+        scene.setFill(Color.web("#130329"));
+        return scene;
     }
 
     public void getMoodChart(List<Mood> moodHistory) {
@@ -69,7 +81,9 @@ public class MoodStatPage extends Page {
         Collections.reverse(moodHistory);
 
         CategoryAxis xAxis = new CategoryAxis();
+        xAxis.setTickLabelFill(Color.web("#FCA7A5"));
         NumberAxis yAxis = new NumberAxis();
+        yAxis.setTickLabelFill(Color.web("#FCA7A5"));
         yAxis.setAutoRanging(false);
         yAxis.setLowerBound(0);
         yAxis.setUpperBound(11);
@@ -91,6 +105,8 @@ public class MoodStatPage extends Page {
 
         LineChart<String, Number> lineChart = new LineChart<>(xAxis, yAxis);
         lineChart.setTitle(localeRes.getString("mood_chart"));
+        lineChart.setStyle("-fx-background-color: #130329; -fx-text-fill: #FCA7A5; -fx-control-inner-background: #5A3E79;");
+        lineChart.lookup(".chart-title").setStyle("-fx-text-fill: #FCA7A5;");
 
         XYChart.Series<String, Number> series = new XYChart.Series<>();
         series.setName(moodHistory.size() + " " + localeRes.getString("days"));
@@ -101,7 +117,10 @@ public class MoodStatPage extends Page {
         }
 
         lineChart.getData().add(series);
+        lineChart.setLegendVisible(true);
+        lineChart.lookup(".chart-legend").setStyle("-fx-text-fill: #FCA7A5;");
 
         moodChart.getChildren().add(lineChart);
+        moodChart.setStyle("-fx-background-color: #130329; -fx-control-inner-background: #5A3E79;");
     }
 }

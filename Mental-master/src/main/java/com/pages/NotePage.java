@@ -12,6 +12,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
 
 import java.util.List;
 
@@ -26,9 +27,14 @@ public class NotePage extends Page {
         date.makeGrey();
         SuperLabel content = new SuperLabel(note.getContent());
         content.setWrapText(true);
+        content.setTextFill(Color.web("#130329"));
+        content.setStyle("-fx-control-inner-background: #FCA7A5;");
+        date.setTextFill(Color.web("#130329"));
+        date.setStyle("-fx-control-inner-background: #FCA7A5;");
 
         HBox buttons = new HBox(10);
         Hyperlink deleteButton = new Hyperlink(Page.localeRes.getString("delete"));
+        deleteButton.setTextFill(Color.web("#130329"));
         deleteButton.setOnAction(event -> {
             DataBaseAccess.deleteNote(note);
 
@@ -60,6 +66,7 @@ public class NotePage extends Page {
 
         if (note.getDiaryPage() != null) {
             Hyperlink backButton = new Hyperlink(Page.localeRes.getString("back"));
+            backButton.setTextFill(Color.web("#130329"));
             backButton.setOnAction(event -> PageManager.loadPage(new DiaryPage(note.getDiaryPage())));
             buttons.getChildren().addAll(backButton, deleteButton);
         } else {
@@ -70,12 +77,17 @@ public class NotePage extends Page {
         container.setSpacing(10);
         ScrollPane scrollPane = new ScrollPane(container);
         scrollPane.setFitToWidth(true);
+        scrollPane.setStyle("-fx-background: #5A3E79; -fx-background-color: #5A3E79;");
+        container.setStyle("-fx-background-color: #5A3E79;");
         VBox.setVgrow(scrollPane, Priority.ALWAYS);
 
         Root root = new Root();
         root.setToTopCenter(scrollPane);
         root.setMenuBar();
+        root.setStyle("-fx-background-color: #5A3E79;");
 
-        return new Scene(root);
+        Scene scene = new Scene(root);
+        scene.setFill(Color.web("#5A3E79"));
+        return scene;
     }
 }

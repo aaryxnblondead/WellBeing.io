@@ -48,6 +48,22 @@ public class RegPage extends Page {
 
         Root root = new Root();
         root.setToCenter(container);
+        root.setStyle("-fx-background-color: #130329;");
+
+        // Set text color for all labels and inputs
+        String textStyle = "-fx-text-fill: #FCA7A5;";
+        secondNameLabel.setStyle(textStyle);
+        nameLabel.setStyle(textStyle);
+        additionalNameLabel.setStyle(textStyle);
+        usernameLabel.setStyle(textStyle);
+        passwordLabel.setStyle(textStyle);
+        saveButton.setStyle(textStyle);
+        exitButton.setStyle(textStyle);
+        secondNameInput.setStyle("-fx-text-fill: #130329; -fx-control-inner-background: #A76286; -fx-background-color: #A76286; -fx-prompt-text-fill: #5A3E79;");
+        nameInput.setStyle("-fx-text-fill: #130329; -fx-control-inner-background: #A76286; -fx-background-color: #A76286; -fx-prompt-text-fill: #5A3E79;");
+        additionalNameInput.setStyle("-fx-text-fill: #130329; -fx-control-inner-background: #A76286; -fx-background-color: #A76286; -fx-prompt-text-fill: #5A3E79;");
+        usernameInput.setStyle("-fx-text-fill: #130329; -fx-control-inner-background: #A76286; -fx-background-color: #A76286; -fx-prompt-text-fill: #5A3E79;");
+        passwordInput.setStyle("-fx-text-fill: #130329; -fx-control-inner-background: #A76286; -fx-background-color: #A76286; -fx-prompt-text-fill: #5A3E79;");
 
         return new Scene(root);
     }

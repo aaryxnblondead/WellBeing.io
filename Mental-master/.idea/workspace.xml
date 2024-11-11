@@ -11,16 +11,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/Mental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/Mental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/elements/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/elements/Diary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/elements/Mood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/elements/Mood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/elements/SuperLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/elements/SuperLabel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/models/Locale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/models/Locale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/DiaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/DiaryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/LogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/NotePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/NotePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/pages/UserPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dddryinside/service/SettingsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dddryinside/service/SettingsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Mental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Mental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elements/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elements/Diary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elements/Mood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elements/Mood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elements/SuperLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elements/SuperLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/models/Locale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/models/Locale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/DiaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/DiaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/NotePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/NotePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/UserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/SettingsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/SettingsManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/en_locale.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/en_locale.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ru_locale.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ru_locale.properties" afterDir="false" />
@@ -95,7 +95,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Mental" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.dddryinside.Mental" />
+      <option name="MAIN_CLASS_NAME" value="com.Mental" />
       <module name="Mental" />
       <method v="2">
         <option name="Make" enabled="true" />

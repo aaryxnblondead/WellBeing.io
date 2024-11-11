@@ -18,7 +18,7 @@ public class Mental extends Application {
     public final static Locale APP_LOCALE = SettingsManager.getLocale();
     @Override
     public void start(Stage stage) {
-        stage.setTitle("Mental");
+        stage.setTitle("WellBeingIO");
 
         Image icon = new Image(ResourceManager.loadImage("/img/icon.png"));
         stage.getIcons().add(icon);

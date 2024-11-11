@@ -14,6 +14,7 @@ import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.util.StringConverter;
+import javafx.scene.paint.Color;
 
 public class SettingsPage extends Page {
     private final VBox languageBox = new VBox(10);
@@ -60,11 +61,22 @@ public class SettingsPage extends Page {
         root.setToTopCenter(container);
         root.setMenuBar();
 
-        return new Scene(root);
+        Scene scene = new Scene(root);
+        scene.getRoot().setStyle("-fx-background-color: #130329; -fx-text-fill: #FCA7A5;");
+        menuBox.setStyle("-fx-text-fill: #FCA7A5;");
+        settingsBox.setStyle("-fx-text-fill: #FCA7A5;");
+        title.setStyle("-fx-text-fill: #FCA7A5;");
+        explanation.setStyle("-fx-text-fill: #FCA7A5;");
+        languageButton.setStyle("-fx-text-fill: #FCA7A5;");
+        securityButton.setStyle("-fx-text-fill: #FCA7A5;");
+        notificationButton.setStyle("-fx-text-fill: #FCA7A5;");
+
+        return scene;
     }
 
     private void getLanguageBox() {
         SuperLabel title = new SuperLabel(localeRes.getString("app_language"));
+        title.setStyle("-fx-text-fill: #FCA7A5;");
 
         ComboBox<Locale> chooseLanguage = new ComboBox<>();
         chooseLanguage.getItems().addAll(Locale.values());
@@ -81,8 +93,11 @@ public class SettingsPage extends Page {
         });
         chooseLanguage.setValue(Mental.APP_LOCALE);
         chooseLanguage.setMinWidth(300);
+        chooseLanguage.setStyle("-fx-text-fill: #FCA7A5; -fx-control-inner-background: #5A3E79;");
 
         Hyperlink saveButton = new Hyperlink(localeRes.getString("save"));
+        saveButton.setStyle("-fx-text-fill: #FCA7A5;");
+
         saveButton.setOnAction(event -> {
             if (chooseLanguage.getSelectionModel().getSelectedItem() != null) {
                 SettingsManager.setLocale(chooseLanguage.getValue());
@@ -91,16 +106,22 @@ public class SettingsPage extends Page {
         });
 
         languageBox.getChildren().addAll(title, chooseLanguage, saveButton);
+        languageBox.setStyle("-fx-text-fill: #FCA7A5;");
     }
 
     public void getSecurityBox() {
         SuperLabel currentPasswordLabel = new SuperLabel(localeRes.getString("current_password"));
+        currentPasswordLabel.setStyle("-fx-text-fill: #FCA7A5;");
         PasswordField currentPassword = new PasswordField();
+        currentPassword.setStyle("-fx-text-fill: #FCA7A5; -fx-control-inner-background: #5A3E79;");
 
         SuperLabel newPasswordLabel = new SuperLabel(localeRes.getString("new_password"));
+        newPasswordLabel.setStyle("-fx-text-fill: #FCA7A5;");
         TextField newPassword = new TextField();
+        newPassword.setStyle("-fx-text-fill: #FCA7A5; -fx-control-inner-background: #5A3E79;");
 
         Hyperlink saveButton = new Hyperlink(localeRes.getString("save"));
+        saveButton.setStyle("-fx-text-fill: #FCA7A5;");
         saveButton.setOnAction(event -> {
             if (currentPassword.getText().equals(AccountManager.getUser().getPassword())) {
                 if (newPassword.getText().length() >= 8) {
@@ -121,13 +142,16 @@ public class SettingsPage extends Page {
 
         securityBox.getChildren().addAll(currentPasswordLabel, currentPassword,
                 newPasswordLabel, newPassword, saveButton);
+        securityBox.setStyle("-fx-text-fill: #FCA7A5;");
     }
 
     public void getNotificationsBox() {
         CheckBox notifyMe = new CheckBox(localeRes.getString("notify_me"));
         notifyMe.setSelected(SettingsManager.getShowNotification());
+        notifyMe.setStyle("-fx-text-fill: #FCA7A5;");
 
         Hyperlink saveButton = new Hyperlink(localeRes.getString("save"));
+        saveButton.setStyle("-fx-text-fill: #FCA7A5;");
         saveButton.setOnAction(event -> {
             SettingsManager.setShowNotification(notifyMe.isSelected());
 
@@ -139,6 +163,7 @@ public class SettingsPage extends Page {
         });
 
         notificationsBox.getChildren().addAll(notifyMe, saveButton);
+        notificationsBox.setStyle("-fx-text-fill: #FCA7A5;");
     }
 
     private void deactivateAll() {
